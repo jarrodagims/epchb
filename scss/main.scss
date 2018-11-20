@@ -1,0 +1,255 @@
+@import './old.scss';
+
+.landing {
+
+  .footer {
+    background: #000;
+    height: 72px;
+  }
+
+  .banner-left {
+    padding-top: 7em;
+  }
+
+  .gray-bg {
+    background: #F2F2F2;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    padding: 3em 0;
+
+    h3 {
+      font-size: 29px;
+      line-height: 1.5;
+    }
+  }
+
+  .check-lists {
+    padding: 2em 0;
+  }
+
+  ul.check-list {
+    list-style: none;
+    padding-left: 0;
+    line-height: 20px;
+    margin: 2em 0;
+    
+
+    span {
+      display: inline-block;
+      overflow: hidden;
+      color: #666666;
+    }
+
+    li {
+      margin-bottom: .5em;
+    }
+
+
+   
+    li::before {
+      background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 17.42 17.42"><title>svg-check</title><g id="affbe3f4-c16c-4d54-a8f5-2d5f15d4563c" data-name="Layer 2"><g id="f9724c99-0bb8-40cc-a1d6-fafa28214b24" data-name="Layer 4"><polygon points="12.83 4.83 6.95 10.05 4.74 7.57 3.4 8.76 5.6 11.25 5.6 11.25 6.79 12.59 14.03 6.17 12.83 4.83" fill="%23fa9437"/><path d="M8.71,17.42a8.71,8.71,0,1,1,8.71-8.71A8.72,8.72,0,0,1,8.71,17.42Zm0-15.68a7,7,0,1,0,7,7A7,7,0,0,0,8.71,1.74Z" fill="%23fa9437"/></g></g></svg>');
+      content: '';
+      width: 20px;
+      height: 20px;
+      display: inline-block;
+      float: left;
+      margin-right: .5em;
+    }
+  }
+
+  .col-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .landing-hero {
+    background: url('../images/bg-landing.jpg') 0 0 no-repeat;
+    background-size: cover;
+
+    h1 {
+      font-size: 31px;
+      margin-bottom: .5em;
+      font-family: 'Poppins', sans-serif;
+      font-weight: 400;
+    }
+
+    h2 {
+      font-size: 48px;
+      text-transform: none;
+      font-family: 'Poppins', sans-serif;
+      font-weight: 500;
+      margin: 1.5em 0;
+
+      .brand {
+        color: #fc9427;
+      }
+    }
+
+    h3 {
+      font-family: 'Poppins', sans-serif;
+      margin-bottom: 1em;
+      margin-top: 2em;
+      font-size: 22px;
+    }
+
+    form {
+      color: #fff;
+
+      p {
+        margin-bottom: 0;
+      }
+
+      h2 {
+        background: rgba(250, 148, 55, .66);
+        font-size: 22px;
+        font-family: 'Montserrat', sans-serif;
+        padding: 1em 0;
+        font-weight: 500;
+        margin-top: 0;
+      }
+    }
+
+    .form {
+      padding: 0 0 1em;
+      max-width: 993px;
+      margin: 1em auto;
+    }
+
+    #contact-page .wpcf7-submit {
+      margin-top: 0;
+      width: auto;
+      font-size: 17px;
+      padding: 1em 2em;
+      font-family: 'Montserrat', sans-serif;
+    }
+
+    .ajax-loader {
+      position: absolute;
+    }
+
+    p {
+      width: auto;
+    }
+
+    .flex-col {
+      display: flex;
+      justify-content: space-between;
+      align-content: center;
+    }
+
+    .contact-bottom {
+      padding: 0 ;
+
+      > div {
+        display: flex;
+        align-items: center;
+      }
+
+      
+      label {
+        display: block;
+        margin: 0.2em;
+        cursor: pointer;
+        padding: 0.2em;
+      }
+
+      input[type=checkbox] {
+        display: none;
+      }
+
+      label:after {
+        content: "";
+        border: 1px solid #fff;
+        display: inline-block;
+        width: 1.5em;
+        height: 1.5em;
+        padding-left: 0.2em;
+        padding-bottom: 0.3em;
+        margin-left: 0.2em;
+        vertical-align: middle;
+        color: transparent;
+      }
+
+    }
+
+    label {
+      display: flex;
+      color: #fff;
+    }
+
+    span {
+      color: #fff;
+    }
+
+    .form-group {
+      display: flex;
+
+      input[type=text], input[type=email] {
+        background: rgba(204, 204, 204, 0.22);
+        color: #fff;
+        font-weight: 400;
+      }
+
+      ::placeholder {
+        color: #fff; 
+      }
+    }
+
+//     input[type="checkbox"] {
+//       width: auto !important;
+//       display: inline-block;
+//       margin-right: .25em;
+//       cursor: pointer;
+//       cursor: hand;
+//     }
+
+  }
+
+
+  #top-bar {
+    color: #fff;
+    background: rgba(0,0,0,0.57);
+
+    .text {
+      font-size: 29px;
+    }
+
+    .btn {
+      padding: .5em 4em;
+      font-weight: 600;
+    }
+  }
+
+  .btn {
+    width: 100%;
+    padding: 14px 0;
+    border: none;
+    background: #fc9427;
+    font-size: 25px;
+    font-weight: 400;
+    color: #fff;
+    border-radius: 0;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  .brand {
+    color: #fc9427;
+  }
+
+  .logo {
+    width: 215px;
+    height: 215px;
+    margin: 2em 0;
+  }
+
+  .ribbon {
+    background: #fc8c2b;
+    color: #fff;
+
+    h3 {
+      font-weight: 600;
+      margin: .5em 0;
+    }
+  }
+}

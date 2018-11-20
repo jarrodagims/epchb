@@ -35,7 +35,6 @@ get_header(); ?>
                   <div class="full-width bg-gray padding20 contant-right">
                     <?php dynamic_sidebar("right-widget-4"); ?>
                 </div>
-                 
             </div>
         </div>
     </main>

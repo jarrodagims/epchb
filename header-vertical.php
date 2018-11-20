@@ -30,6 +30,7 @@
 		</div></div><!-- .site-branding -->
 
 		<nav id="site-navigation" class="main-navigation" role="navigation">
+		
 			<?php wp_nav_menu( array( 'theme_location' => 'menu-1', 'menu_id' => 'menu', 'container' => 'div', 'container_class' => '' ) ); ?><!-- menu_id must = menu for slicknav mobile menu to work -->
 		</nav><!-- #site-navigation -->
 	</header><!-- #masthead -->

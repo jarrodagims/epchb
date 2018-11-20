@@ -2,136 +2,168 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e30ef21c-63dc-4d0b-940b-9e9047a79f18" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/elpaso.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/404.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/archive.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/comments.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/flexboxgrid.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/font-awesome.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/images/bx_loader.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/images/controls.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/jquery.bxslider.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/slick.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/slicknav.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/default.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/FontAwesome.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/fontawesome-webfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/fontawesome-webfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/fontawesome-webfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/fontawesome-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/fontawesome-webfont.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/slick.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/slick.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/slick.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/slick.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/footer-default.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/footer-vertical.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/footer.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/functions.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/header-vertical.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/header.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home-es-page.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home-page.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/banner.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/footer-social-icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/red-arrow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/social-icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inc/custom-header.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inc/customizer.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inc/extras.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inc/jetpack.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inc/landingpage-cities.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inc/template-tags.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inc/widgets.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/customizer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/flowtype.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/jquery.bxslider.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/jquery.lazyload.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/jquery.slicknav.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/libs/jquery-3.1.1.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/navigation.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/skip-link-focus-fix.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/slick-init.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/slick.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/gff-starter.pot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/readme.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/layouts/content-sidebar.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/layouts/sidebar-content.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/page-confirmation.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/page-thank-you.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/page.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/readme.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rtl.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshot.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/search.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sidebar.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/single.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template-parts/content-default.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template-parts/content-home.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template-parts/content-none.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template-parts/content-page.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template-parts/content-search.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template-parts/content.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vertical.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp_bootstrap_navwalker.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inc/header-scripts.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page-landing.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scss/main.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scss/old.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scss/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/bootstrap.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/jquery.bxslider.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/jquery.bxslider.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/slick.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/slick.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/slicknav.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/slicknav.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/functions.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/header-vertical.php" beforeDir="false" afterPath="$PROJECT_DIR$/header-vertical.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home-es-page.php" beforeDir="false" afterPath="$PROJECT_DIR$/home-es-page.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home-page.php" beforeDir="false" afterPath="$PROJECT_DIR$/home-page.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inc/extras.php" beforeDir="false" afterPath="$PROJECT_DIR$/inc/extras.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inc/landingpage-cities.php" beforeDir="false" afterPath="$PROJECT_DIR$/inc/landingpage-cities.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inc/widgets.php" beforeDir="false" afterPath="$PROJECT_DIR$/inc/widgets.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/jquery.bxslider.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/jquery.bxslider.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/slick-init.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/slick-init.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page-confirmation.php" beforeDir="false" afterPath="$PROJECT_DIR$/page-confirmation.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page-thank-you.php" beforeDir="false" afterPath="$PROJECT_DIR$/page-thank-you.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page.php" beforeDir="false" afterPath="$PROJECT_DIR$/page.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/single.php" beforeDir="false" afterPath="$PROJECT_DIR$/single.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template-parts/content-home.php" beforeDir="false" afterPath="$PROJECT_DIR$/template-parts/content-home.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp_bootstrap_navwalker.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp_bootstrap_navwalker.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="38854192">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.11" value="1" />
+          <entry key="project.open.time.38" value="1" />
+          <entry key="project.open.time.43" value="1" />
+          <entry key="project.opened" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="css" value="28" />
+          <entry key="json" value="9" />
+          <entry key="php" value="1026" />
+          <entry key="scss" value="1671" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="CSS" value="28" />
+          <entry key="JSON" value="9" />
+          <entry key="PHP" value="1026" />
+          <entry key="SCSS" value="1671" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="css" value="5" />
+          <entry key="json" value="1" />
+          <entry key="php" value="6" />
+          <entry key="scss" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CSS" value="5" />
+          <entry key="JSON" value="1" />
+          <entry key="PHP" value="6" />
+          <entry key="SCSS" value="2" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="header.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/header.php">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/scss/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="158" column="104" lean-forward="true" selection-start-line="158" selection-start-column="104" selection-end-line="158" selection-end-column="148" />
+            <state relative-caret-position="182">
+              <caret line="299" lean-forward="true" selection-start-line="299" selection-end-line="299" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="header-vertical.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/header-vertical.php">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/page-landing.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="197">
-              <caret line="23" column="60" lean-forward="true" selection-start-line="23" selection-start-column="60" selection-end-line="23" selection-end-column="60" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="home-page.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/home-page.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="29" column="117" lean-forward="true" selection-start-line="29" selection-start-column="117" selection-end-line="29" selection-end-column="117" />
+            <state relative-caret-position="396">
+              <caret line="33" column="46" lean-forward="true" selection-start-line="33" selection-start-column="46" selection-end-line="33" selection-end-column="46" />
               <folding>
-                <element signature="e#424#450#0#HTML" expanded="true" />
-                <element signature="e#669#690#0#HTML" expanded="true" />
-                <element signature="e#737#760#0#HTML" expanded="true" />
+                <element signature="e#6#44#0#PHP" expanded="true" />
+                <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="functions.php" pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/scss/main.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="182">
+              <caret line="7" column="3" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+              <folding>
+                <element signature="e#654#1186#2" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/scss/old.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="732">
+              <caret line="1172" lean-forward="true" selection-start-line="1172" selection-end-line="1172" />
+              <folding>
+                <element signature="e#122#391#0" />
+                <element signature="e#680#737#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/home-page.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="416">
+              <caret line="27" column="75" selection-start-line="27" selection-start-column="75" selection-end-line="27" selection-end-column="75" />
+              <folding>
+                <element signature="e#444#470#0#HTML" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/functions.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="243">
-              <caret line="216" column="1" selection-start-line="216" selection-start-column="1" selection-end-line="216" selection-end-column="1" />
+            <state relative-caret-position="420">
+              <caret line="221" column="105" selection-start-line="221" selection-start-column="105" selection-end-line="221" selection-end-column="105" />
             </state>
           </provider>
         </entry>
@@ -140,12 +172,40 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>slicknav_menu</find>
-      <find>call us now</find>
       <find>id=&quot;page&quot;</find>
+      <find>slicknav</find>
+      <find>slicknav_menu</find>
+      <find>.slicknav_btn</find>
+      <find>padding:50px 0px;</find>
+      <find>${}</find>
+      <find>slicknav_</find>
+      <find>for over t</find>
+      <find>benefits:</find>
+      <find>benefits</find>
+      <find>sell your house</find>
+      <find>.banner-left p</find>
+      <find>dont</find>
+      <find>#main</find>
+      <find>home-steps-section</find>
+      <find>youtube</find>
+      <find>.banner-left h2</find>
+      <find>sell your</find>
+      <find>.place-card</find>
+      <find>footer-image.jpg</find>
+      <find>open sans</find>
+      <find>font-family:</find>
+      <find>nunito</find>
+      <find>epchb-banner</find>
+      <find>red-arrow.png</find>
+      <find>preload</find>
+      <find>red-arrow</find>
+      <find>css</find>
+      <find>style.css</find>
+      <find>h3</find>
     </findStrings>
     <dirStrings>
       <dir>C:\wamp\www\wordpress\wp-content\themes\elpaso</dir>
+      <dir>$PROJECT_DIR$</dir>
     </dirStrings>
   </component>
   <component name="Git.Settings">
@@ -155,9 +215,17 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/header-vertical.php" />
-        <option value="$PROJECT_DIR$/functions.php" />
+        <option value="$PROJECT_DIR$/css/style.css" />
+        <option value="$PROJECT_DIR$/inc/header-scripts.php" />
         <option value="$PROJECT_DIR$/header.php" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/scss/style.css" />
+        <option value="$PROJECT_DIR$/scss/old.scss" />
+        <option value="$PROJECT_DIR$/page.php" />
         <option value="$PROJECT_DIR$/home-page.php" />
+        <option value="$PROJECT_DIR$/functions.php" />
+        <option value="$PROJECT_DIR$/page-landing.php" />
+        <option value="$PROJECT_DIR$/scss/main.scss" />
       </list>
     </option>
   </component>
@@ -167,13 +235,19 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/node_modules" />
+  </component>
   <component name="NodePackageJsonFileManager">
-    <packageJsonPaths />
+    <packageJsonPaths>
+      <path value="$PROJECT_DIR$/package.json" />
+    </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="633" />
-    <option name="width" value="1116" />
-    <option name="height" value="1040" />
+    <option name="x" value="265" />
+    <option name="y" value="90" />
+    <option name="width" value="1835" />
+    <option name="height" value="1288" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -188,6 +262,16 @@
               <item name="elpaso" type="b2602c69:ProjectViewProjectNode" />
               <item name="elpaso" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="elpaso" type="b2602c69:ProjectViewProjectNode" />
+              <item name="elpaso" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="elpaso" type="b2602c69:ProjectViewProjectNode" />
+              <item name="elpaso" type="462c0819:PsiDirectoryNode" />
+              <item name="scss" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -197,8 +281,18 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../summersault2018" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/scss" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -223,35 +317,39 @@
       <option name="presentableId" value="Default" />
       <updated>1529097489829</updated>
       <workItem from="1529097491105" duration="1404000" />
+      <workItem from="1529099022174" duration="16376000" />
+      <workItem from="1542658919983" duration="2360000" />
+      <workItem from="1542670667883" duration="2043000" />
+      <workItem from="1542728964160" duration="11288000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1404000" />
+    <option name="totallyTimeSpent" value="33471000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="633" y="0" width="1116" height="1040" extended-state="0" />
+    <frame x="265" y="90" width="1835" height="1288" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.24478595" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2809091" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17456776" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" side_tool="true" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.25677967" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" weight="0.32991204" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -261,35 +359,151 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/header-vertical.php">
+    <entry file="file://$PROJECT_DIR$/css/bak/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="23" column="60" lean-forward="true" selection-start-line="23" selection-start-column="60" selection-end-line="23" selection-end-column="60" />
+        <state relative-caret-position="434">
+          <caret line="309" column="74" lean-forward="true" selection-start-line="309" selection-start-column="74" selection-end-line="309" selection-end-column="74" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/functions.php">
+    <entry file="file://$PROJECT_DIR$/header-vertical.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="216" column="1" selection-start-line="216" selection-start-column="1" selection-end-line="216" selection-end-column="1" />
+        <state relative-caret-position="364">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/header.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="158" column="104" lean-forward="true" selection-start-line="158" selection-start-column="104" selection-end-line="158" selection-end-column="148" />
+        <state relative-caret-position="104">
+          <caret line="4" column="43" selection-start-line="4" selection-start-column="43" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/inc/header-scripts.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3458">
+          <caret line="133" selection-start-line="133" selection-end-line="133" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page-thank-you.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="28" selection-start-line="24" selection-end-line="28" />
+          <folding>
+            <element signature="e#6#333#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/inc/custom-header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1144">
+          <caret line="54" column="20" selection-start-line="54" selection-start-column="20" selection-end-line="54" selection-end-column="20" />
+          <folding>
+            <element signature="e#6#288#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1898">
+          <caret line="80" selection-start-line="75" selection-end-line="80" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="624">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="26">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="616">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/old.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="732">
+          <caret line="1172" lean-forward="true" selection-start-line="1172" selection-end-line="1172" />
+          <folding>
+            <element signature="e#122#391#0" />
+            <element signature="e#680#737#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/home-es-page.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-450">
+          <caret line="95" column="38" selection-start-line="95" selection-start-column="38" selection-end-line="95" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="24" column="18" lean-forward="true" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/home-page.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="29" column="117" lean-forward="true" selection-start-line="29" selection-start-column="117" selection-end-line="29" selection-end-column="117" />
+        <state relative-caret-position="416">
+          <caret line="27" column="75" selection-start-line="27" selection-start-column="75" selection-end-line="27" selection-end-column="75" />
           <folding>
-            <element signature="e#424#450#0#HTML" expanded="true" />
-            <element signature="e#669#690#0#HTML" expanded="true" />
-            <element signature="e#737#760#0#HTML" expanded="true" />
+            <element signature="e#444#470#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="221" column="105" selection-start-line="221" selection-start-column="105" selection-end-line="221" selection-end-column="105" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="299" lean-forward="true" selection-start-line="299" selection-end-line="299" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/main.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="7" column="3" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+          <folding>
+            <element signature="e#654#1186#2" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page-landing.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="33" column="46" lean-forward="true" selection-start-line="33" selection-start-column="46" selection-end-line="33" selection-end-column="46" />
+          <folding>
+            <element signature="e#6#44#0#PHP" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
