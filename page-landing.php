@@ -7,12 +7,12 @@
 <div class="landing">
     <div class="landing-hero">
         <div id="top-bar">
-            <div class="container">
+            <div class="container-fluid">
                 <div class="row">
                     <div class="col-xs-12">
                         <div class="col-flex">
                             <div class="text"><strong>CALL NOW</strong> to get your <strong>CASH OFFER! <a href="tel:9152298974">915-229-8974</a></strong></div>
-                            <a href="#"><button class="btn btn-primary">Call Us Now</button></a>
+                            <a href="tel:9152298974"><button class="btn btn-primary">Call Us Now</button></a>
                         </div>
                     </div>
                 </div>
@@ -25,14 +25,14 @@
                         <div class="row">
                             <div class="col-sm-12 col-xs-12">
                                 <div class="banner-left">
-                                    <h1>SELL YOUR HOUSE AS IS FOR CASH FAST<br /> EL PASO, TEXAS</h1>
+                                    <div class="extra-padding"><h1>SELL YOUR HOUSE AS IS FOR CASH <br />FAST EL PASO, TEXAS</h1>
                                     <section id="custom_html-4"
                                              class="widget_text widget global-section2-widget widget_custom_html">
                                         <div class="textwidget custom-html-widget">
-                                            <h2>We will BEAT any legitimate competitor offer or PAY YOU <span class="brand">$500 IN CASH.</span> GUARANTEED. </h2>
-                                            <h3>No Fees, No Commissions, No Closing Cost.Get the Best Cash Offer - We Can Close in 7 Days!</h3>
+                                            <h2>We will beat any legitimate competitor offer <br />or pay you <span class="brand">$500 in cash.</span> Guaranteed. </h2>
+                                            <h3>No Fees, No Commissions, No Closing Cost. Get the Best Cash Offer - We Can Close in 7 Days!</h3>
                                         </div>
-                                    </section>
+                                    </section></div>
                                 </div>
                             </div>
                             <div class="col-sm-12 col-xs-12 center-block">
