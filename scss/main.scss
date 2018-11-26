@@ -2,7 +2,6 @@
 
 .landing {
 
-
   @media screen and (min-width: 1900px) {
     .container-fluid {
       max-width: 1552px;
@@ -14,6 +13,10 @@
       padding-left: 15px;
       padding-right: 15px;
     }
+  }
+
+  @media screen and (min-width: 992px) {
+    font-size: 12px;
   }
 
   .footer {
@@ -34,10 +37,11 @@
     background: #F2F2F2;
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
-    padding: 3em 0;
+    padding: 3em 0; 
 
     h3 {
-      font-size: 29px;
+//       font-size: 29px;
+      font-size: 1.813em;
       line-height: 1.5;
     }
 
@@ -45,7 +49,8 @@
       padding: 1em 0;
 
         h3 {
-          font-size: 19px;
+           font-size: 19px;
+//            font-size: 1.188em;
         }
     }
   }
@@ -97,6 +102,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 0 15px;
 
     @media screen and (max-width: 992px) {
       flex-direction: column;
@@ -108,7 +114,8 @@
     background-size: cover;
 
     h1 {
-      font-size: 37px;
+//       font-size: 37px;
+      font-size: 2.313em;
       font-family: 'Poppins', sans-serif;
       font-weight: 400;
       letter-spacing: -1px;
@@ -116,7 +123,8 @@
     }
 
     h2 {
-      font-size: 48px;
+//       font-size: 48px;
+      font-size: 3.000em;
       font-family: 'Poppins', sans-serif;
       font-weight: 600;
       margin: 1.5em 0;
@@ -133,7 +141,8 @@
       font-family: 'Poppins', sans-serif;
       margin-bottom: 1em;
       margin-top: 2em;
-      font-size: 22px;
+//       font-size: 22px;
+      font-size: 1.375em;
       letter-spacing: -.5px;
     }
 
@@ -143,11 +152,18 @@
       background-size: cover;
         
         h1 {
-          font-size: 24px;
+         font-size: 19px;
+//           font-size: 1.500em;
         }
 
         h2 {
-          font-size: 19px;
+          font-size: 16px;
+
+          &.guarantee {
+            font-size: 26px !important;
+          }
+
+//           font-size: 1.188em;
 
           br {
             display: none;
@@ -155,7 +171,9 @@
         }
 
         h3 {
-          font-size: 19px;
+          font-size: 14px;
+          line-height: 1.5;
+//           font-size: 1.188em;
         }
 
         .extra-padding {
@@ -173,7 +191,8 @@
 
       h2 {
         background: rgba(250, 148, 55, .66);
-        font-size: 23px;
+//         font-size: 23px;
+        font-size: 1.438em;
         font-family: 'Montserrat', sans-serif;
         padding: 1em 0;
         font-weight: 500;
@@ -203,7 +222,8 @@
     #contact-page .wpcf7-submit {
       margin-top: 0;
       width: auto;
-      font-size: 17px;
+//       font-size: 17px;
+      font-size: 1.063em;
       padding: 1em 2em;
       font-family: 'Montserrat', sans-serif;
     }
@@ -241,7 +261,8 @@
       }
 
       span {
-        font-size: 17px;
+//         font-size: 17px;
+        font-size: 1.063em;
         font-weight: 400;
       }
 
@@ -312,7 +333,8 @@
         color: #fff;
         font-weight: 400;
         padding: 1.5em 1em;
-        font-size: 17px;
+//         font-size: 17px;
+        font-size: 1.063em;
       }
 
       input {
@@ -354,9 +376,10 @@
     padding: 30px 0;
 
     .text {
-      font-size: 29px;
+//       font-size: 29px;
+      font-size: 1.813em;
       font-family: 'Montserrat', sans-serif;
-      font-weight: 300;
+      font-weight: 300 !important;
     }
 
     .btn {
@@ -371,7 +394,7 @@
       }
 
       .btn {
-        font-size: 19px;
+        font-size: 14px;
       }
     }
   }
@@ -381,7 +404,8 @@
     padding: 14px 0;
     border: none;
     background: #fc9427;
-    font-size: 25px;
+//     font-size: 25px;
+    font-size: 1.563em;
     font-weight: 400;
     color: #fff;
     border-radius: 0;

@@ -106,16 +106,15 @@ wp_enqueue_script( 'gff-starter-slider', get_template_directory_uri() . '/js/sli
 	wp_enqueue_script( 'gff-starter-slider-init', get_template_directory_uri() . '/js/slick-init.js', array(), '20151215', true );
 wp_enqueue_script( 'gff-starter-responsive-menu', get_template_directory_uri() . '/js/jquery.slicknav.js', array(), '20151215', true );
 wp_enqueue_script( 'gff-starter-skip-link-focus-fix', get_template_directory_uri() . '/js/skip-link-focus-fix.js', array(), '20151215', true );
-	
-	
 
-	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
+
+
+    if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
 		wp_enqueue_script( 'comment-reply' );
 	}
 }
 add_action( 'wp_enqueue_scripts', 'gff_starter_scripts' );
-add_filter('widget_text','do_shortcode'); 
-
+add_filter('widget_text','do_shortcode');
 
 /** Fallback Jquery loaded in footer in case Google tanks
 */
@@ -208,6 +207,8 @@ document.addEventListener( 'wpcf7mailsent', function( event ) {
         location = 'http://www.elpasocashhomebuyers.com/confirmation/';
     } else if ( '743' == event.detail.contactFormId ) {
         location = 'http://www.elpasocashhomebuyers.com/es-confirmation/';
+    } else if ( '1140' == event.detail.contactFormId ) {
+        location = 'http://www.elpasocashhomebuyers.com/thank-you/';
     } else {
         // do nothing
     }
@@ -218,8 +219,18 @@ document.addEventListener( 'wpcf7mailsent', function( event ) {
 
 function wpb_add_google_fonts() {
     wp_enqueue_style( 'open', 'https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i', false );
+
+    if(is_page('landing')) :
+        wp_enqueue_style( 'open', 'https://fonts.googleapis.com/css?family=Poppins:300,400,600', false );
+    endif;
 //    wp_enqueue_style( 'nunito', 'https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i', false );
 }
 
 add_action( 'wp_enqueue_scripts', 'wpb_add_google_fonts' );
 
+//
+//function landing_style() {
+//    wp_enqueue_script( 'landing-style', get_template_directory_uri() . '/css/main.css', array('gff-starter-style'), '1.0', true );
+//}
+//
+//add_action( 'wp_enqueue_scripts', 'landing_style' );

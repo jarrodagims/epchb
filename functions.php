@@ -208,7 +208,7 @@ document.addEventListener( 'wpcf7mailsent', function( event ) {
     } else if ( '743' == event.detail.contactFormId ) {
         location = 'http://www.elpasocashhomebuyers.com/es-confirmation/';
     } else if ( '1140' == event.detail.contactFormId ) {
-        location = 'http://www.elpasocashhomebuyers.com/thank-you/';
+        location = 'http://www.elpasocashhomebuyers.com/thank-you-landing/';
     } else {
         // do nothing
     }
@@ -220,8 +220,9 @@ document.addEventListener( 'wpcf7mailsent', function( event ) {
 function wpb_add_google_fonts() {
     wp_enqueue_style( 'open', 'https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i', false );
 
-    if(is_page('landing')) :
+    if(is_page_template('page-landing.php')) :
         wp_enqueue_style( 'open', 'https://fonts.googleapis.com/css?family=Poppins:300,400,600', false );
+        wp_enqueue_style( 'montserrat', 'https://fonts.googleapis.com/css?family=Montserrat:300,400,600', false );
     endif;
 //    wp_enqueue_style( 'nunito', 'https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i', false );
 }
