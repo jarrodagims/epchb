@@ -207,6 +207,8 @@ document.addEventListener( 'wpcf7mailsent', function( event ) {
         location = 'http://www.elpasocashhomebuyers.com/confirmation/';
     } else if ( '743' == event.detail.contactFormId ) {
         location = 'http://www.elpasocashhomebuyers.com/es-confirmation/';
+    } else if ( '1140' == event.detail.contactFormId ) {
+        location = 'http://www.elpasocashhomebuyers.com/thank-you/';
     } else {
         // do nothing
     }

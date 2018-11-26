@@ -2,6 +2,7 @@
 
 .landing {
 
+
   @media screen and (min-width: 1900px) {
     .container-fluid {
       max-width: 1552px;
@@ -137,6 +138,9 @@
     }
 
     @media screen and (max-width: 992px) {
+
+      background: url('../images/bg-landing-sm.jpg') center 0 no-repeat;
+      background-size: cover;
         
         h1 {
           font-size: 24px;
@@ -352,6 +356,7 @@
     .text {
       font-size: 29px;
       font-family: 'Montserrat', sans-serif;
+      font-weight: 300;
     }
 
     .btn {

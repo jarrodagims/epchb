@@ -216,3 +216,10 @@ document.addEventListener( 'wpcf7mailsent', function( event ) {
 <?php
 }
 
+function wpb_add_google_fonts() {
+    wp_enqueue_style( 'open', 'https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i', false );
+//    wp_enqueue_style( 'nunito', 'https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i', false );
+}
+
+add_action( 'wp_enqueue_scripts', 'wpb_add_google_fonts' );
+

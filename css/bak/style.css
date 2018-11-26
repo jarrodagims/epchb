@@ -246,7 +246,7 @@ text-align: center;
 	margin: 0px !important;
 }
 
-body{ margin:0px; padding:0px; overflow-x:hidden; display:block; font-family: 'Open Sans', sans-serif; line-height:28px; }
+body{ margin:0px; padding:0px; overflow-x:hidden; display:block; font-family: 'Open Sans', sans-serif; font-display: auto; line-height:28px; }
 
 h1{ font-size:36px; }
 h2{ font-size:24px; font-weight: bold; }
@@ -301,7 +301,8 @@ a{ text-decoration:none !important;}
 .banner-left{ width:100%; padding:20px 10px 20px 20px; background:rgba(0,0,0,0.7); }
 .banner-left h1{ width:100%; font-size:33px; font-weight:400; color:#fff; margin: 0px;}
 .banner-left h3{ width:100%; font-size:24px; font-weight:700; color:#fff;}
-.banner-left h5{ width:100%; margin:0px; padding:0px 0px 20px; font-size:19px; font-weight:700; color:#fff; background:url(../images/red-arrow.png) right 0px no-repeat; line-height: 25px;}
+.banner-left h5{ width:100%; margin:0px; padding:0px 0px 20px; font-size:19px; font-weight:700; color:#fff;
+	line-height: 25px;}
 .banner-left p{ width:100%; font-size:16px; font-weight:700; color:#fff;}
 
 .form{ width:100%; padding:25px 20px 15px; background:rgba(245,245,245,0.9); border-radius:19px; }
@@ -465,5 +466,708 @@ div.wpcf7-response-output{ margin-top:0px !important; }
 	background-repeat: no-repeat;
 	background-position: center center;
     margin-top: 5px;
+}
+
+#top .social-icon {
+	margin-top: -50px;
+}
+#home-banner{z-index:1;}
+#top {
+	position: relative;
+	z-index: 10;
+}
+#top-bar{z-index: 10;}
+.navbar-nav > li > .dropdown-menu {
+	margin-top: 0;
+	border-top-left-radius: 0!important;
+	border-top-right-radius: 0!important;
+}
+ul.dropdown-menu {
+	text-align: center;
+	margin: 0;
+	padding: 0;
+}
+ul.dropdown-menu li a {
+	padding: 0.5em;
+	border-bottom: 1px solid #e6e6e6;
+}
+.overlay {
+	position: absolute;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.6);
+}
+
+.form input[type="email"] {
+	width: 100%;
+	padding: 7px 10px;
+	border: none;
+	background: #fff;
+	border-bottom: 1px solid #313131;
+}
+
+.form input[type="submit"]{margin-top:1em;}
+div.wpcf7-validation-errors, div.wpcf7-acceptance-missing {
+	border: 2px solid #d8d8d8;
+	background: #ccc;
+}
+#top-bar {
+	padding: 1em 0;
+	text-align: center;
+	background: rgba(29, 28, 28, .5);
+	position: relative;
+}
+#top-bar h2 {
+	font-size: 20px;
+	margin: 0;
+	color: #c3c3c3;
+	font-weight: 400;
+}
+#top-bar h2 span {
+	font-weight: 800;
+	color: #c3c3c3;
+}
+#top-bar a {
+	font-weight: 600;
+	color: #fd943c;
+}
+
+img.img-responsive.elp-logo {
+	max-width: 150px;
+}
+.menu-top-header-container {
+	margin-top: 50px;
+}
+
+.navbar-nav > li > a {
+	padding-top: 15px;
+	padding-bottom: 15px;
+	text-transform: uppercase;
+	font-size: 14px;
+	font-weight: 600;
+	color: #fff;
+}
+#top {
+	width: 100%;
+	padding: 13px 0 25px;
+	margin-bottom: -275px;
+}
+
+
+#top .fa {
+	color: #fff;
+}
+
+#top .container {
+	border-bottom: 2px solid #ffffff14;
+	padding-bottom: 2em;
+}
+
+#home-banner {
+
+	background: #000;
+	padding: 18em 0 5em;
+	position: relative;
+}
+
+@media screen and (min-width: 992px) {
+	#home-banner { background: url(https://www.elpasocashhomebuyers.com/wp-content/uploads/2018/04/epchb-banner.jpg) !important;
+		background-size: cover;
+		background-attachment: fixed;
+	}
+}
+.overlay {
+	position: absolute;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.6);
+}
+.banner-contant {
+	width: inherit;
+	position: inherit;
+	top:inherit;
+	left:inherit;
+	transform: inherit;
+	-webkit-transform:inherit;
+	z-index: 99;
+}
+.banner-left {
+	width: 100%;
+	padding: 20px 20px 0px 20px;
+	background: none;
+	text-align: center;
+}
+
+.banner-left h1 {
+	width: 100%;
+	font-size: 4.5rem;
+	font-weight: 700;
+	color: #fff;
+	margin: 0px;
+	text-transform: uppercase;
+	letter-spacing: 0;
+}
+.banner-left h3 {
+	width: 100%;
+	font-size: 24px;
+	font-weight: 700;
+	color: #fc8b2b;
+}
+.banner-left p {
+	width: 100%;
+	font-size: 16px;
+	font-weight: 700;
+	color: #fff;
+}
+.banner-left h5 {
+	width: 800px;
+	margin: 0px;
+	padding: 1em;
+	font-size: 18px;
+	font-weight: 700;
+	color: #fff;
+	background: rgba(152, 72, 5, 0.5);
+	line-height: 25px;
+	margin: 0 auto;
+	border: #000;
+	border: 1px solid #824615;
+	text-transform: uppercase;
+}
+
+.elp-home-banner-text {
+	display: block;
+	font-size: 18px;
+	font-weight: bold;
+	color: #fff;
+}
+.form {
+	width: 100%;
+	padding: 1em !important;
+	background: rgba(0, 0, 0, 0.5);
+	border-radius: 0;
+	text-align: center;
+	max-width: 800px;
+	border: 1px solid #3a3a3a;
+	margin: 0 auto;
+}
+.gform_wrapper {
+	margin: 0px !important;
+}
+
+ul#gform_fields_1 {
+	list-style: none;
+	padding-left: 0;
+}
+
+.gform_wrapper ul.gform_fields li.gfield {
+	color: #cacaca;
+	font-size: 14px;
+	padding: 15px 5px;
+}
+
+.banner-contant form a {
+	color: #fc8b2b;
+	font-weight: 700;
+}
+
+.banner-contant label {
+	display: none;
+}
+
+.form input[type="text"] {
+	width: 100%;
+	padding: 7px 10px;
+	border: none;
+	background: #fff;
+	border-bottom: 1px solid #313131;
+}
+#gform_submit_button_1::placeholder {
+	color: #fff;
+	font-weight: 700;
+}
+.container-fluid.home-callout-section {
+	background: #171717;
+	color: #fff;
+	box-shadow: 0 0 15px rgba(0,0,0,.75);
+	padding: 1em;
+}
+.home-steps-section h3 {
+	color: #fc8b2b;
+}
+a {
+	color: #fc8b2b;
+	text-decoration: none;
+}
+.nav > li > a:hover, .nav > li > a:focus {
+	text-decoration: none;
+	background-color: #000;
+	transition: 300ms linear all;
+}
+/*Footer CSS*/
+#footer-cta {
+	padding: 7em 0;
+	background: url('../../../uploads/2018/04/footer-image.jpg');
+	background-size: cover;
+	background-position: center;
+	position: relative;
+	text-align: center;
+}
+.bg-blue {
+	background: #0c0c0c;
+}
+#footer-cta h3 {
+	text-align: center;
+	color: #fff;
+	position: relative;
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 2.8rem;
+	margin-top: 0;
+	margin-bottom: 0.5em;
+	line-height:36px
+}
+
+#footer-cta a {
+	font-size: 3.5rem;
+	display: block;
+	position: relative;
+	font-weight: 700;
+	color: #fc8c2b;
+	margin-bottom: 0.5em;
+}
+
+#footer-cta p {
+	color: #cacaca;
+	position: relative;
+	margin-bottom: 0;
+}
+.footer-nav ul {
+	width: auto;
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+	background: #080808;
+	border-left: 1px solid #131313;
+	border-right: 1px solid #131313;
+	border-bottom: 1px solid #131313;
+}
+
+.footer-nav ul li a {
+	width: auto;
+	padding: 10px 14px;
+	display: inline-block;
+	font-size: 13px;
+	font-weight: 400;
+	color: #b7b7b7;
+	text-transform: uppercase;
+}
+.footer-nav {
+	width: 100%;
+	padding: 0px 10px 20px;
+}
+
+.textwidget form .col-xs-12 {
+	padding: 0;
+	margin-bottom: 1em;
+}
+.textwidget input.wpcf7-form-control.wpcf7-submit {
+	margin-top: 1em;
+	color: #fff;
+	background: #fe944a;
+}
+
+.textwidget form input {
+	display: block;
+	width: 100%;
+	clear: both;
+	border: 0;
+	padding: 10px;
+	font-size: 14px;
+}
+.full-width.bg-gray.padding20.contant-right:nth-child(2) {
+	display: none;
+}
+
+#contact-page label{display:block;}
+#contact-page input {
+	width: 100%;
+	min-height: 40px;
+}
+#contact-page .wpcf7-submit {
+	background: #fc8c2b;
+	color: #fff;
+	padding: 0.6em;
+	margin-top: 1em;
+	border: 0;
+}
+
+.grid-wrap {
+	display: flex;			/* THIS MAKES IT A FLEX CONTAINER */
+	flex-flow: row wrap;		/* THIS MAKES EACH BLOG POST LINE UP HORIZONTALLY AND WRAP TO THE NEXT LINE */
+	align-items: center;		/* YOU CAN CHOOSE DIFFERENT VALUES HERE */
+	justify-content: center;	/* YOU CAN CHOOSE DIFFERENT VALUES HERE */
+	list-style: none;		/* THIS REMOVES THE BULLET POINT FOR EACH LIST ITEM */
+}
+
+/* THIS IS THE CLASS FOR EACH LIST ITEM */
+
+.grid-item {
+	flex-basis: 30%;
+	height: 538px;
+	padding: 0;
+	margin: 10px;
+	background: #f9f9f9;
+}
+
+/* USE THIS TO MAKE THE FEATURED IMAGES BEHAVE PROPERLY ACROSS ALL DEVICES */
+
+.grid-item img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 100%;
+	height:auto;
+}
+.grid-item h2 {
+	padding: 0 10px;
+}
+.grid-item p {
+	padding: 0 10px;
+	font-size: 14px;
+	color: #909090;
+}
+/* YOU MIGHT NEED THIS TO FIX THE TYPICAL INDENTION BEHAVIOR OF UNORDERED LISTS */
+
+.grid-wrap ul {
+	margin-left: 0;
+}
+
+.grid-item span {
+	display: block;
+	width: 100%;
+	text-align: center;
+	background: #e4e4e4;
+}
+.grid-item span a {
+	color: #868686;
+	padding: 1em;
+	display:block;
+}
+.blog-box {
+	padding: 2em 0;
+}
+aside#secondary {
+	display: none;
+}
+
+.banner-left h2 {
+	width: 100%;
+	font-size: 4rem;
+	font-weight: 700;
+	color: #fff;
+	margin: 0px;
+	text-transform: uppercase;
+	letter-spacing: 0;
+}
+
+@media screen and (max-width:991px){
+	section#nav_menu-2 {
+		display: none;
+	}
+	.col-lg-2.col-md-2.col-sm-2.col-xs-12 .logo img {
+		margin: 0 auto;
+		text-align: center;
+	}
+	.col-lg-2.col-md-2.col-sm-2.col-xs-12 {
+		width: 100%;
+		text-align: center;
+	}
+	.banner-left{padding:0;}
+	.banner-left h5{width:100%;}
+	#toggle {
+		font-size: 24px;
+	}
+	nav {
+		background-color: #333;
+		text-align: center;
+	}
+	nav ul {
+		display: none;
+	}
+	nav a {
+		color: #ccc; text-decoration: none;
+	}
+	#toggle {
+		font-size: 24px;
+		padding: 0.2em 0;
+		display: block;
+	}
+	nav {
+		background: #fa8b2b;
+	}
+	nav ul {
+		background: #000;
+		margin: 0;
+		list-style:none;
+		padding-left: 0;
+	}
+	nav ul li {
+		border-bottom: 1px solid;
+	}
+	nav ul li a {
+		display: block;
+		padding: 0.5em;
+		font-size: 14px;
+	}
+	nav ul li:hover a {
+		color: #fff;
+	}
+	#home-banner{padding: 12em 0 5em;}
+	.banner-left h1 {
+		font-size: 2rem;
+	}
+	form .col-xs-12.col-sm-4 {
+		margin-bottom: 1em;
+	}
+	.form input[type="submit"]{margin-top:0;}
+	span.ajax-loader {
+		position: absolute;
+	}
+
+
+}
+
+
+@media screen and (max-width:767px){
+	section#nav_menu-2 {
+		display: none;
+	}
+	#top-bar {
+		padding: 1em 0;
+		text-align: center;
+		background: rgb(0, 0, 0);
+		position: relative;
+		z-index: 10;
+	}
+	.banner-left h5{width:100%;}
+
+	#home-banner {
+		background-size: cover;
+		background-attachment: inherit;
+		background-position: -1130px !important;
+	}
+
+}
+
+
+
+
+@media screen and (max-width:640px){
+	.banner-left h3 {
+		margin-top: 0;
+		margin-bottom: 0;
+	}
+	#top .container {
+		padding-bottom: 1em;
+	}
+	#top {
+		margin-bottom: -230px;
+	}
+}
+@media screen and (max-width:480px){
+	nav {
+		background: #fa8b2b;
+		position: relative;
+		z-index: 500;
+	}
+	#top-bar a {
+		display: block;
+	}
+	img.img-responsive.elp-logo {
+		max-width: 85px;
+	}
+	#top {
+		margin-bottom: -202px;
+	}
+	#top .container {
+		padding-bottom: 1em;
+	}
+	.banner-left h1 {
+		font-size: 1.1rem;
+	}
+	.banner-left h3 {
+		font-size: 13px;
+		font-weight: 400;
+		margin-top: 5px;
+		margin-bottom: 0px;
+	}
+	.banner-left p {
+		font-size: 12px;
+	}
+	.banner-left h5 {
+		margin: 0;
+		padding: 0.5em;
+	}
+	#home-banner .form input[type="text"] {
+		width: 100%;
+	}
+
+	#home-banner input#gform_submit_button_1{
+		padding: 0.5em;
+		margin-bottom: 0;
+	}
+	.gform_footer.top_label {
+		margin-top: 0 !important;
+		padding: 0;
+	}
+	#home-banner .form input[type="text"],#home-banner .form input[type="email"]{font-size: 14px;}
+	#home-banner .form{padding:1em 0.5em!important;}
+	.banner-left p{margin-bottom:0;}
+
+
+}
+.video-responsive{
+	overflow:hidden;
+	padding-bottom:56.25%;
+	position:relative;
+	height:0;
+	margin-bottom: 25px
+}
+.video-responsive iframe{
+	left:0;
+	top:0;
+	height:100%;
+	width:100%;
+	position:absolute;
+}
+
+p.home-guarantee {
+	color: #fd943c;
+}
+
+@media screen and (max-width: 992px) {
+
+	.banner-left p.home-guarantee {
+		margin: 1em 0;
+		font-size: 2.5rem;
+	}
+
+	.banner-left h2 {
+		font-size: 2rem !important;
+	}
+
+	#top-bar h2 {
+		font-size: 1em !important;
+	}
+
+	#top-bar h2 a {
+		display: none;
+	}
+
+	.banner-left h5 {
+		margin-top: 1em;
+	}
+
+	.banner-left p {
+		line-height: 1.5;
+	}
+
+	.banner-left h3 {
+		color: #fff;
+	}
+}
+
+@media screen and (min-width: 999px) {
+
+	.banner-left h3 {
+		color: #fff;
+		font-size: 1em;
+		font-weight: normal;
+		margin-bottom: 0;
+	}
+
+	.banner-left p.home-guarantee {
+		margin: 1em 0;
+		font-size: 2.5rem;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	img.img-responsive.elp-logo
+	{
+		max-width: 65px !important;
+	}
+
+	.banner-left p.home-guarantee {
+
+		margin: 1em 0;
+	}
+
+
+	/* 	#home-banner {
+            top: 80px;
+        } */
+
+	/* 	.full-width {
+            top: -50px;
+        }
+         */
+
+	#home-banner {
+		padding-bottom: 0;
+	}
+
+	#page {
+		top: 30px;
+	}
+
+	#top {
+		position: absolute;
+	}
+
+	#home-banner {
+		padding-top: 100px;
+	}
+
+}
+
+@media screen and (min-width: 992px) {
+	p {
+		line-height: 1.75;
+		margin: 0 0 30px;
+	}
+
+	.steps_benefits p {
+		margin: 0 0 15px;
+	}
+
+	h1, .h1, h2, .h2, h3, .h3 {
+		margin-bottom: 15px;
+	}
+
+	.banner-left p.home-guarantee {
+		font-size: 4rem;
+		line-height: 1.5;
+	}
+
+	.banner-left h2 {
+		font-size: 2.5rem;
+	}
+
+}
+@media screen and (max-width: 480px)
+{
+	.col-lg-8.col-md-8.col-sm-12.col-xs-12 article {
+		padding-top: 5em;
+	}
+	div#home article {
+		padding-top: inherit;
+	}
+}
+
+.banner-contant h1, .banner-content h3, .banner-content p, .banner-content h2 {
+	font-display: auto;
 }
 

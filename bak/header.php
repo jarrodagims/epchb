@@ -31,16 +31,13 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <meta name="google-site-verification" content="yj98Gy-PkkOf0yI_yBgFNCw5RP4wHOTsqN6DWgXCub0" />
 <meta charset="<?php bloginfo( 'charset' ); ?>">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel=preload rel="profile" href="http://gmpg.org/xfn/11">
+<link  rel="profile" href="http://gmpg.org/xfn/11">
 
 <?php wp_head(); ?>
 <?php the_field('facebook_pixel_code', 'option');?>
 <?php the_field('google_webmaster_code', 'option');?>
 
 
-<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet" />
-<link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet" />
-	
 <?php 
 	if(is_page('incio')){
 		
