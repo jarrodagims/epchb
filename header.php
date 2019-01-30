@@ -14,21 +14,22 @@
 <a href="tel:915-229-8974" class="phone-icon visible-xs"><span>CALL NOW</span></a>
 <div id="page" class="site">
 
-	<a class="skip-link screen-reader-text hide" href="#content"><?php esc_html_e( 'Skip to content', 'gff-starter' ); ?></a>
+    <a class="skip-link screen-reader-text hide"
+        href="#content"><?php esc_html_e( 'Skip to content', 'gff-starter' ); ?></a>
     <div id="top-bar">
-      <div class="container">
-          <div class="col-xs-12">
-			<?php
+        <div class="container">
+            <div class="col-xs-12">
+                <?php
 			  if(!is_page('incio')){
            echo'<h2><span>CALL NOW</span> to get your <span>CASH OFFER</span>! <a href="tel:915-229-8974">915-229-8974</a></h2>';
 			  }
 			  else echo'<h2><span>¡LLAMA AHORA</span> para obtener tu  <span>OFERTA EN EFECTIVO!</span>! <a href="tel:915-229-8974">915-229-8974</a></h2>'; 
 			 ?>
-          </div>    
-      </div>
-	</div>
-	
-    <div id="top" <?php if(!is_front_page()){ echo 'style="margin-bottom:0;background:#000;"';} ?>>
+            </div>
+        </div>
+    </div>
+
+    <!-- <div id="top" <?php if(!is_front_page()){ echo 'style="margin-bottom:0;background:#000;"';} ?>>
       <div class="container">
           <div class="col-lg-2 col-md-2 col-sm-2 col-xs-12">
                 <div class="logo">
@@ -63,9 +64,9 @@
 			</div>
        </div>
     </div>	
-	
-	
+	 -->
 
-    
-    
-	<div id="content" class="site-content">
+
+
+
+    <div id="content" class="site-content">
