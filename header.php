@@ -28,24 +28,27 @@
             </div>
         </div>
     </div>
-
-    <!-- <div id="top" <?php if(!is_front_page()){ echo 'style="margin-bottom:0;background:#000;"';} ?>>
-      <div class="container">
-          <div class="col-lg-2 col-md-2 col-sm-2 col-xs-12">
+    <?php if(!is_front_page()) : ?>
+    <!-- HEADER -->
+    <div id="top" <?php if(!is_front_page()){ echo 'style="margin-bottom:0;background:#000;"';} ?>>
+        <div class="container">
+            <div class="col-lg-2 col-md-2 col-sm-2 col-xs-12">
                 <div class="logo">
                     <a href="/">
-                    <picture>
-                        <source srcset="<?php bloginfo("template_directory"); ?>/images/logo.png"
+                        <picture>
+                            <source srcset="<?php bloginfo("template_directory"); ?>/images/logo.png"
                                 media="(min-width: 992px)" height="150" width="150">
-                        <img class="img-responsive elp-logo"  src="<?php bloginfo("template_directory"); ?>/images/logo-mobile.png" alt="el paso house for cash logo" />
-                    </picture>
+                            <img class="img-responsive elp-logo"
+                                src="<?php bloginfo("template_directory"); ?>/images/logo-mobile.png"
+                                alt="el paso house for cash logo" />
+                        </picture>
                     </a>
                 </div>
             </div>
-          	<div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 text-right">
-				<section id="nav_menu-2" class="widget header-social-widget row widget_nav_menu">
-					<div class="menu-top-header-container">				
-						<?php wp_nav_menu( array(
+            <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 text-right">
+                <section id="nav_menu-2" class="widget header-social-widget row widget_nav_menu">
+                    <div class="menu-top-header-container">
+                        <?php wp_nav_menu( array(
 							'menu'              => 'Main Menu',
 							'menu_id' 			=> 'menu',
 							'theme_location'    => 'menu-1',
@@ -57,14 +60,20 @@
 							'fallback_cb'       => 'wp_bootstrap_navwalker::fallback',
 							'walker'            => new wp_bootstrap_navwalker())
 						 ); ?>
-						<div class="social-icon" style="color: #FD8B3E"> <a href="https://www.facebook.com/elpasocashhomebuyers" target="_blank"><i class="fa fa-2x fa-facebook-official" aria-hidden="true"></i></a> <a href="https://twitter.com/ElPasoHomeBuyer" target="_blank"><i class="fa fa-2x fa-twitter-square" aria-hidden="true"></i></a></div>
-					</div>
-				</section>
+                        <div class="social-icon" style="color: #FD8B3E"> <a
+                                href="https://www.facebook.com/elpasocashhomebuyers" target="_blank"><i
+                                    class="fa fa-2x fa-facebook-official" aria-hidden="true"></i></a> <a
+                                href="https://twitter.com/ElPasoHomeBuyer" target="_blank"><i
+                                    class="fa fa-2x fa-twitter-square" aria-hidden="true"></i></a></div>
+                    </div>
+                </section>
 
-			</div>
-       </div>
-    </div>	
-	 -->
+            </div>
+        </div>
+    </div>
+    <!-- /HEADER -->
+    <?php endif; ?>
+
 
 
 

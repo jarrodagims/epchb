@@ -102,8 +102,8 @@ wp_enqueue_style( 'gff-starter-responsive-menu-css', get_stylesheet_directory_ur
 	wp_enqueue_style( 'gff-slider-style', get_stylesheet_directory_uri() . '/css/slick.css', array(), '20151215' );
 	
 	
-wp_enqueue_script( 'gff-starter-slider', get_template_directory_uri() . '/js/slick.js', array(), '20151215', true );
-	wp_enqueue_script( 'gff-starter-slider-init', get_template_directory_uri() . '/js/slick-init.js', array(), '20151215', true );
+// wp_enqueue_script( 'gff-starter-slider', get_template_directory_uri() . '/js/slick.js', array(), '20151215', true );
+	// wp_enqueue_script( 'gff-starter-slider-init', get_template_directory_uri() . '/js/slick-init.js', array(), '20151215', true );
 wp_enqueue_script( 'gff-starter-responsive-menu', get_template_directory_uri() . '/js/jquery.slicknav.js', array(), '20151215', true );
 wp_enqueue_script( 'gff-starter-skip-link-focus-fix', get_template_directory_uri() . '/js/skip-link-focus-fix.js', array(), '20151215', true );
 
@@ -196,23 +196,23 @@ add_action( 'wp_footer', 'cf7_thank_you_redirect' );
 function cf7_thank_you_redirect() {
 ?>
 <script type="text/javascript">
-document.addEventListener( 'wpcf7mailsent', function( event ) {
-    if ( '622' == event.detail.contactFormId ) {
+document.addEventListener('wpcf7mailsent', function(event) {
+    if ('622' == event.detail.contactFormId) {
         location = 'http://www.elpasocashhomebuyers.com/confirmed/';
-    } else if ( '421' == event.detail.contactFormId ) {
+    } else if ('421' == event.detail.contactFormId) {
         location = 'http://www.elpasocashhomebuyers.com/thank-you/';
-    } else if ( '744' == event.detail.contactFormId ) {
+    } else if ('744' == event.detail.contactFormId) {
         location = 'http://www.elpasocashhomebuyers.com/es-thank-you/';
-    } else if ( '407' == event.detail.contactFormId ) {
+    } else if ('407' == event.detail.contactFormId) {
         location = 'http://www.elpasocashhomebuyers.com/confirmation/';
-    } else if ( '743' == event.detail.contactFormId ) {
+    } else if ('743' == event.detail.contactFormId) {
         location = 'http://www.elpasocashhomebuyers.com/es-confirmation/';
-    } else if ( '1140' == event.detail.contactFormId ) {
+    } else if ('1140' == event.detail.contactFormId) {
         location = 'http://www.elpasocashhomebuyers.com/thank-you-landing/';
     } else {
         // do nothing
     }
-}, false );
+}, false);
 </script>
 <?php
 }

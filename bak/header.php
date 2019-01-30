@@ -11,7 +11,7 @@
 
 ?>
 <?php echo get_template_part('inc/header', 'scripts'); ?>
-<a href="tel:915-229-8974" class="phone-icon visible-xs">915-229-8974</a>
+<a href="tel:915-229-8974" class="phone-icon visible-xs"><span>CALL NOW</span></a>
 <div id="page" class="site">
 
 	<a class="skip-link screen-reader-text hide" href="#content"><?php esc_html_e( 'Skip to content', 'gff-starter' ); ?></a>
@@ -24,9 +24,6 @@
 			  }
 			  else echo'<h2><span>¡LLAMA AHORA</span> para obtener tu  <span>OFERTA EN EFECTIVO!</span>! <a href="tel:915-229-8974">915-229-8974</a></h2>'; 
 			 ?>
-			  
- 
-			  
           </div>    
       </div>
 	</div>

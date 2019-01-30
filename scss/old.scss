@@ -528,7 +528,8 @@ div.wpcf7-validation-errors, div.wpcf7-acceptance-missing {
 #top-bar {
   padding: 1em 0;
   text-align: center;
-  background: rgba(29, 28, 28, .5);
+  background: #000;
+  //background: rgba(29, 28, 28, .5);
   position: relative;
 }
 #top-bar h2 {
@@ -564,7 +565,7 @@ img.img-responsive.elp-logo {
 #top {
   width: 100%;
   padding: 13px 0 25px;
-  margin-bottom: -275px;
+  
 }
 
 
@@ -578,10 +579,14 @@ img.img-responsive.elp-logo {
 }
 
 #home-banner {
-
   background: #000;
-  padding: 18em 0 5em;
+  padding: 0 0; 
   position: relative;
+  padding-top: 0;
+
+  @media screen and (max-width: 992px) {
+    padding-bottom: 2em;
+  }
 }
 
 @media screen and (min-width: 992px) {
@@ -599,12 +604,14 @@ img.img-responsive.elp-logo {
 }
 .banner-contant {
   width: inherit;
-  position: inherit;
+  position: relative;
   top:inherit;
   left:inherit;
   transform: inherit;
   -webkit-transform:inherit;
   z-index: 99;
+
+
 }
 .banner-left {
   width: 100%;
@@ -664,6 +671,30 @@ img.img-responsive.elp-logo {
   max-width: 800px;
   border: 1px solid #3a3a3a;
   margin: 0 auto;
+
+  @media screen and (min-width: 1280px) {
+    &::before {
+      background: url('../images/arrowsvg.svg') 0 0 no-repeat;
+      background-size: contain;
+      content: '';
+      display: block;
+      position: absolute;
+      left: -50px;
+      top: 0;
+      width: 200px;
+      height: 200px;
+    }
+  }
+
+  
+}
+
+.page-template-page-landing .form {
+
+  &::before {
+    left: -150px;
+    top: 40px;
+  }
 }
 .gform_wrapper {
   margin: 0px !important;
@@ -937,7 +968,7 @@ aside#secondary {
   nav ul li:hover a {
     color: #fff;
   }
-  #home-banner{padding: 12em 0 5em;}
+//   #home-banner{padding: 12em 0 5em;}
   .banner-left h1 {
     font-size: 2rem;
   }
@@ -985,9 +1016,7 @@ aside#secondary {
   #top .container {
     padding-bottom: 1em;
   }
-  #top {
-    margin-bottom: -230px;
-  }
+  
 }
 @media screen and (max-width:480px){
   nav {
@@ -1001,9 +1030,7 @@ aside#secondary {
   img.img-responsive.elp-logo {
     max-width: 85px;
   }
-  #top {
-    margin-bottom: -202px;
-  }
+ 
   #top .container {
     padding-bottom: 1em;
   }
@@ -1134,14 +1161,6 @@ p.home-guarantee {
 
   #page {
     top: 30px;
-  }
-
-  #top {
-    position: absolute;
-  }
-
-  #home-banner {
-    padding-top: 100px;
   }
 
 }
