@@ -32,20 +32,7 @@
     <!-- HEADER -->
     <div id="top" <?php if(!is_front_page()){ echo 'style="margin-bottom:0;background:#000;"';} ?>>
         <div class="container">
-            <div class="col-lg-2 col-md-2 col-sm-2 col-xs-12">
-                <div class="logo">
-                    <a href="/">
-                        <picture>
-                            <source srcset="<?php bloginfo("template_directory"); ?>/images/logo.png"
-                                media="(min-width: 992px)" height="150" width="150">
-                            <img class="img-responsive elp-logo"
-                                src="<?php bloginfo("template_directory"); ?>/images/logo-mobile.png"
-                                alt="el paso house for cash logo" />
-                        </picture>
-                    </a>
-                </div>
-            </div>
-            <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 text-right">
+			<div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 text-right">
                 <section id="nav_menu-2" class="widget header-social-widget row widget_nav_menu">
                     <div class="menu-top-header-container">
                         <?php wp_nav_menu( array(
@@ -69,6 +56,20 @@
                 </section>
 
             </div>
+            <div class="col-lg-2 col-md-2 col-sm-2 col-xs-12">
+                <div class="logo">
+                    <a href="/">
+                        <picture>
+                            <source srcset="<?php bloginfo("template_directory"); ?>/images/logo.png"
+                                media="(min-width: 992px)" height="150" width="150">
+                            <img class="img-responsive elp-logo"
+                                src="<?php bloginfo("template_directory"); ?>/images/logo-mobile.png"
+                                alt="el paso house for cash logo" />
+                        </picture>
+                    </a>
+                </div>
+            </div>
+            
         </div>
     </div>
     <!-- /HEADER -->

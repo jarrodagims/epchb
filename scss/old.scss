@@ -548,10 +548,39 @@ div.wpcf7-validation-errors, div.wpcf7-acceptance-missing {
 }
 
 img.img-responsive.elp-logo {
-  max-width: 150px;
+  max-width: 100px;
+  margin: 0 auto;
 }
 .menu-top-header-container {
   margin-top: 50px;
+}
+
+.navbar-collapse.collapse {
+  display: flex !important;
+}
+
+.navbar-nav {
+  margin: 0 auto;
+  float: none;
+  display: block;
+}
+
+@media screen and (min-width: 992px) {
+
+  #top.text-right {
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+
+  #top .menu-top-header-container {
+    margin-top: 0;
+  }
+
+  .menu-top-header-container {
+    background: #fd943c;
+  }
 }
 
 .navbar-nav > li > a {
@@ -583,16 +612,14 @@ img.img-responsive.elp-logo {
   padding: 0 0; 
   position: relative;
   padding-top: 0;
-
-  @media screen and (max-width: 992px) {
-    padding-bottom: 2em;
-  }
+  padding-bottom: 2em;
 }
 
 @media screen and (min-width: 992px) {
-  #home-banner { background: url(https://www.elpasocashhomebuyers.com/wp-content/uploads/2018/04/epchb-banner.jpg) !important;
-    background-size: cover;
-    background-attachment: fixed;
+  #home-banner { 
+  background: url(https://www.elpasocashhomebuyers.com/wp-content/uploads/2018/04/epchb-banner.jpg) no-repeat;
+  background-size: cover;
+//     background-attachment: fixed;
   }
 }
 .overlay {
@@ -1201,4 +1228,12 @@ p.home-guarantee {
 
 .banner-contant h1, .banner-content h3, .banner-content p, .banner-content h2 {
   font-display: auto;
+}
+
+@media screen and (min-width: 1200px) {
+  .logo {
+    position: absolute;
+    right: 0;
+    width: 50px;
+  }
 }
