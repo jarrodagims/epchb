@@ -29,7 +29,7 @@
 
     @media screen and (max-width: 992px) {
 
-      padding-top: 2em;
+      padding-top: 0em;
     }
   }
 
@@ -159,8 +159,8 @@
         h2 {
           font-size: 16px;
 
-          &.guarantee {
-            font-size: 26px !important;
+          &.guarantee { 
+            font-size: 16px !important;
           }
 
 //           font-size: 1.188em;
@@ -264,6 +264,7 @@
 //         font-size: 17px;
         font-size: 1.063em;
         font-weight: 400;
+        
       }
 
       input[type=checkbox] {
@@ -303,7 +304,7 @@
         flex-direction: column;
 
         div {
-          flex-direction: column;
+          flex-direction: row;
           justify-content: center;
           align-items: center;
           padding-bottom: 1em;

@@ -11,7 +11,8 @@
                 <div class="row">
                     <div class="col-xs-12">
                         <div class="col-flex">
-                            <div class="text"><strong>CALL NOW</strong> to get your <strong>CASH OFFER! <a href="tel:9152298974" class="hidden-xs ">915-229-8974</a></strong></div>
+                            <div class="text hidden-xs hidden-sm"><strong>CALL NOW</strong> to get your <strong>CASH
+                                    OFFER! <a href="tel:9152298974" class="hidden-xs ">915-229-8974</a></strong></div>
                             <a href="tel:9152298974"><button class="btn btn-primary">Call Us Now</button></a>
                         </div>
                     </div>
@@ -25,14 +26,21 @@
                         <div class="row">
                             <div class="col-sm-12 col-xs-12">
                                 <div class="banner-left">
-                                    <div class="extra-padding"><h1>SELL YOUR HOUSE AS IS FOR CASH <br />FAST EL PASO, TEXAS</h1>
-                                    <section id="custom_html-4"
-                                             class="widget_text widget global-section2-widget widget_custom_html">
-                                        <div class="textwidget custom-html-widget">
-                                            <h2 class="guarantee">We will beat any legitimate competitor offer <br />or pay you <span class="brand">$500 in cash.</span> Guaranteed. </h2>
-                                            <h3>No Fees, No Commissions, No Closing Cost. Get the Best Cash Offer - We Can Close in 7 Days!</h3>
-                                        </div>
-                                    </section></div>
+                                    <div class="extra-padding">
+                                        <h1 class="hidden-xs">SELL YOUR HOUSE AS IS FOR CASH <br />FAST EL PASO, TEXAS
+                                        </h1>
+                                        <section id="custom_html-4"
+                                            class="widget_text widget global-section2-widget widget_custom_html">
+                                            <div class="textwidget custom-html-widget">
+                                                <h2 class="guarantee">Sell Your House Fast in El Paso. We will beat
+                                                    any legitimate competitor offer
+                                                    <br />or pay you <span class="brand">$500 in cash.</span>
+                                                    Guaranteed. </h2>
+                                                <h3>No Fees, No Commissions, No Closing Cost. Get the Best Cash Offer -
+                                                    We Can Close in 7 Days!</h3>
+                                            </div>
+                                        </section>
+                                    </div>
                                 </div>
                             </div>
                             <div class="col-sm-12 col-xs-12 center-block">
@@ -56,7 +64,10 @@
     <div class="container">
         <div class="row">
             <div class="col-xs-12">
-                <div class="text-center"><h3><span class="brand">Why Sell?</span> Divorce, Family Death, Foreclosure, Moving,<br /> Inherited Property & Financial Issues.</h3></div>
+                <div class="text-center">
+                    <h3><span class="brand">Why Sell?</span> Divorce, Family Death, Foreclosure, Moving,<br /> Inherited
+                        Property & Financial Issues.</h3>
+                </div>
             </div>
         </div>
     </div>
@@ -85,8 +96,8 @@
         </div>
         <div class="col-md-6 col-xs-12">
             <ul class="check-list">
-                    <li><span>No Need to Make Repairs. We Buy Homes “as is” Condition!</span></li>
-                    <li><span>Cash offers in as little as 7 days. Must Have Equity!</span></li>
+                <li><span>No Need to Make Repairs. We Buy Homes “as is” Condition!</span></li>
+                <li><span>Cash offers in as little as 7 days. Must Have Equity!</span></li>
             </ul>
         </div>
     </div>
@@ -100,4 +111,5 @@
 <?php the_field('google_code', 'option');?>
 
 </body>
+
 </html>
