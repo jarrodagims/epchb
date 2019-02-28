@@ -50,7 +50,7 @@
                         <div class="social-icon" style="color: #FD8B3E"> <a
                                 href="https://www.facebook.com/elpasocashhomebuyers" target="_blank"><i
                                     class="fa fa-2x fa-facebook-official" aria-hidden="true"></i></a> <a
-                                href="https://twitter.com/ElPasoHomeBuyer" target="_blank"><i
+                                href="https://twitter.com/CashHomeBuyers_" target="_blank"><i
                                     class="fa fa-2x fa-twitter-square" aria-hidden="true"></i></a></div>
                     </div>
                 </section>

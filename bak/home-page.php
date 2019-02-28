@@ -68,7 +68,7 @@ get_header(); ?>
                             <div class="social-icon" style="color: #FD8B3E"> <a
                                     href="https://www.facebook.com/elpasocashhomebuyers" target="_blank"><i
                                         class="fa fa-2x fa-facebook-official" aria-hidden="true"></i></a> <a
-                                    href="https://twitter.com/ElPasoHomeBuyer" target="_blank"><i
+                                    href="https://twitter.com/CashHomeBuyers_" target="_blank"><i
                                         class="fa fa-2x fa-twitter-square" aria-hidden="true"></i></a></div>
                         </div>
                     </section>
@@ -202,6 +202,9 @@ get_header(); ?>
         <div class="full-width bg-gray padding20 contant-right">
             <?php dynamic_sidebar("right-widget-1"); ?>
         </div>
+		
+		<img src="https://www.elpasocashhomebuyers.com/wp-content/uploads/2019/02/carlos-epchb.jpg" alt="carlos El Paso Cash Home Buyers" />
+		<a href="/about-us/" style="text-align: center;color: #fff;background: #fe944a;margin-bottom: 25px;padding: 1em;display: inline-block;width: 100%;">About El Paso Cash Home Buyers</a>
         <div class="video-responsive">
             <iframe width="370" height="208" src="https://www.youtube.com/embed/AX9p9JwBJEw" frameborder="0"
                 allow="autoplay; encrypted-media" allowfullscreen="" style="margin-bottom: 18px;">
