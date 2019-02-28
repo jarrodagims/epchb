@@ -18,7 +18,7 @@
   color: #333;
 }
 
-
+ 
 .fa-4x {
   font-size: 60px !important;
 }
@@ -481,9 +481,12 @@ div.wpcf7-response-output{ margin-top:0px !important; }
   margin-top: 5px;
 }
 
-#top .social-icon {
-  margin-top: -50px;
+.page-template-page-home {
+
+
+
 }
+
 #home-banner{z-index:1;}
 #top {
   position: relative;
@@ -525,6 +528,8 @@ div.wpcf7-validation-errors, div.wpcf7-acceptance-missing {
   border: 2px solid #d8d8d8;
   background: #ccc;
 }
+
+
 #top-bar {
   padding: 1em 0;
   text-align: center;
@@ -538,49 +543,63 @@ div.wpcf7-validation-errors, div.wpcf7-acceptance-missing {
   color: #c3c3c3;
   font-weight: 400;
 }
+
 #top-bar h2 span {
   font-weight: 800;
   color: #c3c3c3;
 }
-#top-bar a {
-  font-weight: 600;
-  color: #fd943c;
-}
 
-img.img-responsive.elp-logo {
-  max-width: 100px;
-  margin: 0 auto;
-}
-.menu-top-header-container {
-  margin-top: 50px;
-}
+.page-template-page-home {
 
-.navbar-collapse.collapse {
-  display: flex !important;
-}
-
-.navbar-nav {
-  margin: 0 auto;
-  float: none;
-  display: block;
-}
-
-@media screen and (min-width: 992px) {
-
-  #top.text-right {
-    padding-top: 0;
-    padding-bottom: 0;
-    padding-right: 15px;
-    padding-left: 15px;
+  #top .social-icon {
+    margin-top: -50px;
   }
 
-  #top .menu-top-header-container {
-    margin-top: 0;
+  #top-bar a {
+    font-weight: 600;
+    color: #fd943c;
+  }
+
+  img.img-responsive.elp-logo {
+    max-width: 100px;
+    margin: 0 auto;
   }
 
   .menu-top-header-container {
-    background: #fd943c;
+    margin-top: 50px;
   }
+
+
+  .navbar-nav {
+    margin: 0 auto;
+    float: none;
+    display: block;
+  }
+
+  .navbar-collapse.collapse {
+    display: flex !important;
+  }
+
+}
+
+@media screen and (min-width: 992px) {
+  .page-template-page-home {
+      #top.text-right {
+      padding-top: 0;
+      padding-bottom: 0;
+      padding-right: 15px;
+      padding-left: 15px;
+    }
+
+    #top .menu-top-header-container {
+      margin-top: 0;
+    }
+
+    .menu-top-header-container {
+      background: #fd943c;
+    }
+  }
+  
 }
 
 .navbar-nav > li > a {
@@ -1162,7 +1181,7 @@ p.home-guarantee {
 }
 
 @media screen and (max-width: 480px) {
-  img.img-responsive.elp-logo
+  .page-template-page-home img.img-responsive.elp-logo
   {
     max-width: 65px !important;
   }
@@ -1231,9 +1250,13 @@ p.home-guarantee {
 }
 
 @media screen and (min-width: 1200px) {
-  .logo {
-    position: absolute;
-    right: 0;
-    width: 50px;
+
+  .page-template-page-home {
+    .logo {
+      position: absolute;
+      right: 0;
+      width: 50px;
+    }
   }
+  
 }

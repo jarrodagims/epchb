@@ -58,7 +58,7 @@
 					echo'<p>Somos una firma de inversión y soluciones inmobiliarias que se especializa en ayudar a los propietarios a deshacerse rápidamente de las casas agobiantes. Somos inversores y solucionadores de problemas que pueden comprar su casa rápidamente con una oferta justa en efectivo</p><br><br> © 2017 El Paso Cash Homebuyer</p>';}
 		
 			?>
-	<div class="footer-social-icon"> <a href="https://www.facebook.com/elpasocashhomebuyers" target="_blank"></a> <a href="https://twitter.com/ElPasoHomeBuyer" class="twitter" target="_blank"></a></div></div></section></div></div></div>
+	<div class="footer-social-icon"> <a href="https://www.facebook.com/elpasocashhomebuyers" target="_blank"></a> <a href="https://twitter.com/CashHomeBuyers_" class="twitter" target="_blank"></a></div></div></section></div></div></div>
 	
 	
 </div>
